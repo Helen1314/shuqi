@@ -1,0 +1,35 @@
+
+书单
+     https://read.xiaoshuo1-sm.com/novel/i.php?
+    页面渲染
+    do=is_pay_sdlist&page=1&size=10&onlyCpBooks=1
+    二级页面 
+	改变--&sdid=46596
+    do=is_pay_sddetail&p=1&shuqi_h5=&onlyCpBooks=1
+    do=is_pay_sddetail&p=1&shuqi_h5=&onlyCpBooks=1
+男频女频   &pageId=2男    &pageId=3女
+    页面渲染
+    http://bookstoreapi.shuqireader.com/eva_bookstore/v1/stencil/query?&appId=1&userId=8000000&type=2&key=shuqiapi
+   男  &pageId=2&timestamp=1551968081&sign=F63337406300A24280D46FDE781B6B75
+   女  &pageId=3&timestamp=1551969576&type=2&sign=F4274C7462819AE7716D4DC257A8E3F3
+    
+    二级页面
+   主编力荐 
+	换一换 &pageId=2
+    	http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1
+	&pageId=2&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1552011443&type=2&resetcache=&func_id=19&orderid=2&mid=42&lmkTxt=listBox&sign=27B2EEC01A8E4C51E2363024E4B594C4&key=shuqiapi
+	&pageId=2&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1551968575&type=2&resetcache=&func_id=19&orderid=2&mid=42&lmkTxt=listBox&sign=47373A378BF85A662A2EACC613C1233C&key=shuqiapi
+        女生&pageId=3
+        &pageId=3&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1551970274&type=2&resetcache=&func_id=19&orderid=2&mid=62&lmkTxt=listBox&sign=7A3AF145366C414CB2A8158A3178D9CE&key=shuqiapi
+   	&pageId=3&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1552009886&type=2&resetcache=&func_id=19&orderid=2&mid=62&lmkTxt=listBox&sign=3386E3C59F90FFD14F81233404B8515F&key=shuqiapi
+   热门男生分类 跳转到分类
+   热门女生分类  跳转到分类
+   男频新书  女频新书
+	换一换
+	http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1
+	男&pageId=2&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1551968814&type=2&resetcache=&func_id=19&orderid=12&mid=52&lmkTxt=listBox&sign=B76EB95EB99AD7BE847FCB7CE59C0AD0&key=shuqiapi
+        女&pageId=3&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1552011699&type=2&resetcache=&func_id=19&orderid=12&mid=72&lmkTxt=listBox&sign=23F9F7C7A8C7371443C75855F4FA37F1&key=shuqiapi
+   男频爽文棒  女生美文榜
+	查看更多  随便跳转一个分页
+
+	

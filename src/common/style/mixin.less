@@ -1,0 +1,43 @@
+// 宽高
+.h(@px){
+    height:unit(@px/@rem-size,rem)
+}
+.w(@px){
+    width:unit(@px/@rem-size,rem)
+}
+.l_h(@px){
+    line-height:unit(@px/@rem-size,rem)
+}
+
+// 边框 内容
+.padding(@top,@right,@bottom,@left){
+    padding-top:unit(@top/@rem-size,rem);
+    padding-right:unit(@right/@rem-size,rem);
+    padding-bottom:unit(@bottom/@rem-size,rem);
+    padding-left:unit(@left/@rem-size,rem);
+}
+.margin(@top,@right,@bottom,@left){
+    margin-top:unit(@top/@rem-size,rem);
+    margin-right:unit(@right/@rem-size,rem);
+    margin-bottom:unit(@bottom/@rem-size,rem);
+    margin-left:unit(@left/@rem-size,rem);
+}
+
+// 定位
+.top(@px){
+    top:unit(@px/@rem-size,rem)
+}
+.bottom(@px){
+    bottom:unit(@px/@rem-size,rem)
+}
+.left(@px){
+    left:unit(@px/@rem-size,rem)
+}
+.right(@px){
+    right:unit(@px/@rem-size,rem)
+}
+
+// 调试
+.bug(@color){
+    border:1px solid @color;
+}
